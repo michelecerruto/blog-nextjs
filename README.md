@@ -1,6 +1,6 @@
 # A statically generated blog example using Next.js, Markdown, and TypeScript
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+This project is created by the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
 
@@ -8,27 +8,24 @@ The blog posts are stored in `/_posts` as Markdown files with front matter suppo
 
 To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter-typescript)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter-typescript&project-name=blog-starter-typescript&repository-name=blog-starter-typescript)
-
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute with [npm](https://docs.npmjs.com/cli/init):
 
 ```bash
-npx create-next-app --example blog-starter-typescript blog-starter-typescript-app
+npm run dev
 # or
-yarn create next-app --example blog-starter-typescript blog-starter-typescript-app
-# or
-pnpm create next-app -- --example blog-starter-typescript blog-starter-typescript-app
+npm run start
 ```
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+Your blog should be up and running on [http://localhost:3000](http://localhost:3000)!
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Libraries
+
+- sendgrid/mail
+- gray-matter
+- remark
+- remark-html
 
 # Notes
 
