@@ -1,0 +1,47 @@
+{
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"typecheck": "tsc"
+	},
+	"dependencies": {
+		"@sendgrid/mail": "^7.7.0",
+		"classnames": "2.3.1",
+		"date-fns": "2.21.3",
+		"gray-matter": "4.0.3",
+		"next": "^12.1.6",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"remark": "14.0.2",
+		"remark-html": "15.0.1",
+		"typescript": "^4.2.4"
+	},
+	"devDependencies": {
+		"@types/jest": "^26.0.23",
+		"@types/node": "^15.6.0",
+		"@types/react": "^17.0.6",
+		"@types/react-dom": "^17.0.5",
+		"autoprefixer": "10.4.0",
+		"postcss": "8.4.5",
+		"tailwindcss": "3.0.5"
+	},
+	"name": "blog-nextjs",
+	"description": "",
+	"version": "1.0.0",
+	"main": "postcss.config.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/michelecerruto/blog-nextjs.git"
+	},
+	"keywords": [],
+	"author": "Michele Cerruto",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/michelecerruto/blog-nextjs/issues"
+	},
+	"homepage": "https://github.com/michelecerruto/blog-nextjs#readme"
+}
