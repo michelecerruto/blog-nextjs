@@ -4,7 +4,7 @@ import Pages from "./pages";
 
 const Footer = () => {
 	return (
-		<footer className="bg-[#000000] text-white w-screen md:grid pt-10 md:grid-cols-3 pb-10">
+		<footer className="bg-[#000000] text-white w-auto md:grid pt-10 md:grid-cols-3 pb-10">
 			<div className=" justify-center text-center grid">
 				<img className="w-20 md:w-20 mx-auto mb-4" src="/assets/logo/logo.png" />
 			</div>
